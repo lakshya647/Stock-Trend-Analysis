@@ -8,19 +8,8 @@ The framework formulates two complementary predictive tasks on financial market 
 
 ---
 
-2. Syllabus & Handout Mapping
 
-Every component implemented in this repository strictly adheres to the official lecture plan:
-
-| Course Phase | Syllabus Lecture Topics | Implemented Techniques | Source File |
-| :--- | :--- | :--- | :--- |
-| **Data Exploration & Preprocessing** | Lectures 6 – 11 | • IQR Box Plot & Z-Score Outlier Analysis<br>• Mean, Median, Mode, Variance, Std Deviation<br>• Heatmaps, Histograms & Scatter plots | `eda_preprocessing.py` |
-| **Classification & Inference** | Lectures 12 – 17 | • Binary Logistic Regression & Coefficient Estimation<br>• Linear Discriminant Analysis (LDA)<br>• Quadratic Discriminant Analysis (QDA) | `trend_classification.py` |
-| **Time Series Forecasting** | Lectures 23 – 29 | • Trend, Seasonality & Noise Decomposition<br>• Exponential Smoothing (Holt-Winters)<br>• ARIMA(p,d,q) & SARIMA(p,d,q)(P,D,Q)s | `time_series_forecasting.py` |
-| **Validation & Optimization** | Lectures 30 – 36 | • Chronological Train-Test Split<br>• Grid Search CV Hyperparameter Tuning<br>• RMSE, MAE, F1-Score, AUC-ROC | All Modules |
-
----
- 4. Quickstart Guide
+2. Quickstart Guide
 
 ### Prerequisites
 Make sure Python 3.9+ is installed.
@@ -51,7 +40,7 @@ python trend_classification.py
 
 ---
 
-## 📊 5. Evaluation Benchmarks
+3. Evaluation Benchmarks
 
 ### A. Time Series Price Forecasting Models *(Lectures 31-32)*
 | Model | RMSE | MAE | Handout Reference |
@@ -68,7 +57,6 @@ python trend_classification.py
 | **Quadratic Discriminant Analysis (QDA)** | **57.30%** | **0.569** | **0.594** | Lecture 17 |
 
 ---
-
-## 🔗 6. Dataset Citation & References
+4. Dataset Citation & References
 - **Dataset Source:** Historical S&P 500 / Equity Price Data via [Kaggle S&P 500 Stock Data](https://www.kaggle.com/datasets/camnugent/sandp500)
 - **Primary Reference Textbook:** *Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani, "An Introduction to Statistical Learning with Applications in R" (ISLR), Springer, 2017.*
