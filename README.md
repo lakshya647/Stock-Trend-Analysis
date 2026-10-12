@@ -1,12 +1,4 @@
-# Comparative Analysis of Machine Learning and Time-Series Techniques for Stock Trend Prediction
-
-**Course Code:** CSE3141 – Predictive Analytics (B.Tech V Semester)  
-**Department:** Department of Computer Science & Engineering  
-**Institution:** Manipal University Jaipur  
-
----
-
-## 📌 1. Project Overview
+1. Project Overview
 
 Predicting equity price dynamics is a foundational challenge in quantitative finance. This project implements and benchmarks multiple predictive analytics techniques directly aligned with the **CSE3141 Predictive Analytics** course handout.
 
@@ -16,7 +8,7 @@ The framework formulates two complementary predictive tasks on financial market 
 
 ---
 
-## 📚 2. Syllabus & Handout Mapping
+2. Syllabus & Handout Mapping
 
 Every component implemented in this repository strictly adheres to the official lecture plan:
 
@@ -28,32 +20,7 @@ Every component implemented in this repository strictly adheres to the official 
 | **Validation & Optimization** | Lectures 30 – 36 | • Chronological Train-Test Split<br>• Grid Search CV Hyperparameter Tuning<br>• RMSE, MAE, F1-Score, AUC-ROC | All Modules |
 
 ---
-
-## 📁 3. Repository Structure
-
-```text
-├── download_data.py               # Data acquisition (Yahoo Finance / Benchmark generator)
-├── stock_data.csv                 # Historical OHLCV dataset
-├── stock_features_processed.csv   # Cleaned dataset with engineered indicators
-├── eda_preprocessing.py           # Statistical summaries, IQR/Z-Score, correlation heatmaps
-├── time_series_forecasting.py     # Decomposition, ARIMA, SARIMA, Holt-Winters
-├── trend_classification.py        # Logistic Regression, LDA, QDA + Grid Search
-├── run_pipeline.py                # Master one-click end-to-end execution script
-├── figures/                       # Exported high-resolution plots
-│   ├── 01_correlation_heatmap.png
-│   ├── 02_volume_boxplot_outliers.png
-│   ├── 03_scatter_and_histogram.png
-│   ├── 04_time_series_decomposition.png
-│   ├── 05_forecast_models_comparison.png
-│   ├── 06_roc_curve_comparison.png
-│   └── cm_*.png                   # Confusion matrices for each classifier
-├── requirements.txt               # Dependency specifications
-└── README.md                      # Project documentation
-```
-
----
-
-## 🚀 4. Quickstart Guide
+ 4. Quickstart Guide
 
 ### Prerequisites
 Make sure Python 3.9+ is installed.
